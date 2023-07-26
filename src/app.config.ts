@@ -1,5 +1,9 @@
 export default defineAppConfig({
-  pages: ["pages/index/index", "pages/index/person/person"],
+  pages: [
+    "pages/index/index",
+    "pages/profile/profile",
+    "pages/product/product",
+  ],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",
@@ -19,7 +23,7 @@ export default defineAppConfig({
         selectedIconPath: "./image/home-selected.png",
       },
       {
-        pagePath: "pages/index/person/person",
+        pagePath: "pages/profile/profile",
         text: "个人中心",
         iconPath: "./image/person.png",
         selectedIconPath: "./image/person-selected.png",
